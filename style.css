@@ -1,36 +1,54 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
 /* CONTAINER */
 
 .container-flexible {
     display: flex;
-    margin: 100px 100px 0;
+    margin: 50px 100px 0;
+}
+
+.container-shadow {
+    box-shadow: 0 0 40px rgba(255, 99, 71, 0.521);
 }
 
 .width-half {
     width: 50%;
+    margin: auto;
+}
+
+.width-half img {
+    width: 85%;
 }
 
 /* BUTTONS */
 .button-order-food {
+    margin: 50px 0;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
     background: linear-gradient(45deg, orange, tomato);
-    border: 400px;
-    border-radius: 10px;
+    padding: 30px 50px;
+    border-radius: 50px;
 }
 
 /* FONTS */
 
 h1 {
-    font-size: 60px;
+    font-size: 80px;
     color: rgb(87, 87, 87);
     margin: 0;
 
 }
 
 p {
-    color: rgb(87, 87, 87);
+    color: rgb(126, 125, 125);
+    font-size: 25px;
+    font-weight: 500;
+    margin: 50px 0 100px;
 }
 
 /* COLOR */
