@@ -7,21 +7,59 @@ body {
 
 .container-flexible {
     display: flex;
-    margin: 50px 100px 0;
+    margin: 50px 0 0;
 }
 
-.container-shadow {
-    box-shadow: 0 0 40px rgba(255, 99, 71, 0.521);
-}
 
 .width-half {
     width: 50%;
+    padding: 0 75px 0 150px;
     margin: auto;
 }
 
 .width-half img {
-    width: 85%;
+    width: 100%;
 }
+
+.container2 {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.container4 {
+    background-color: white;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.356);
+    padding: 50px 50px;
+    border-radius: 60px;
+    margin: 0 75px;
+
+}
+
+.container4 img {
+    width: 70%;
+}
+
+.container-text-center-align {
+    text-align: center;
+    margin: 100px 400px;
+}
+
+footer {
+    height: 350px;
+    text-align: center;
+    background-color: black;
+    margin-top: 100px;
+    padding-top: 1px;
+
+}
+
+footer p {
+    color: white;
+    font-weight: 300;
+}
+
 
 /* BUTTONS */
 .button-order-food {
@@ -35,6 +73,11 @@ body {
     border-radius: 50px;
 }
 
+.button-shadow {
+    box-shadow: 0 0 40px rgba(255, 99, 71, 0.521);
+}
+
+
 /* FONTS */
 
 h1 {
@@ -44,11 +87,23 @@ h1 {
 
 }
 
+h2 {
+    font-size: 50px;
+    color: rgb(87, 87, 87);
+}
+
+h3 {
+    font-size: 40px;
+    color: black;
+
+}
+
 p {
     color: rgb(126, 125, 125);
     font-size: 25px;
     font-weight: 500;
-    margin: 50px 0 100px;
+    margin: 0 0 0;
+    line-height: 1.8;
 }
 
 /* COLOR */
@@ -58,4 +113,8 @@ p {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.solid-black {
+    color: black;
 }
