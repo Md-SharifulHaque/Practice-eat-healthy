@@ -28,6 +28,7 @@ body {
     background-size: 100%;
 }
 
+
 .container4 {
     background-color: white;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.356);
@@ -38,7 +39,10 @@ body {
 }
 
 .container4 img {
-    width: 70%;
+    width: 700px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 40px;
 }
 
 .container5 {
