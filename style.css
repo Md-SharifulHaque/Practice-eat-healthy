@@ -1,0 +1,43 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CONTAINER */
+
+.container-flexible {
+    display: flex;
+    margin: 100px 100px 0;
+}
+
+.width-half {
+    width: 50%;
+}
+
+/* BUTTONS */
+.button-order-food {
+    background: linear-gradient(45deg, orange, tomato);
+    border: 400px;
+    border-radius: 10px;
+}
+
+/* FONTS */
+
+h1 {
+    font-size: 60px;
+    color: rgb(87, 87, 87);
+    margin: 0;
+
+}
+
+p {
+    color: rgb(87, 87, 87);
+}
+
+/* COLOR */
+
+.gradient-orange {
+    background: -webkit-linear-gradient(45deg, orange, tomato);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
