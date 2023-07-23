@@ -41,6 +41,19 @@ body {
     width: 70%;
 }
 
+.container5 {
+    background-color: white;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.356);
+    margin: 100px;
+    border-radius: 50px;
+}
+
+.container5 div {
+    margin: auto;
+}
+
+
+
 .container-text-center-align {
     text-align: center;
     margin: 100px 400px;
@@ -92,6 +105,11 @@ h2 {
     color: rgb(87, 87, 87);
 }
 
+.container5 h2 {
+    color: black;
+    margin: 0;
+}
+
 h3 {
     font-size: 40px;
     color: black;
@@ -104,6 +122,10 @@ p {
     font-weight: 500;
     margin: 0 0 0;
     line-height: 1.8;
+}
+
+.container5 p {
+    color: black;
 }
 
 /* COLOR */
